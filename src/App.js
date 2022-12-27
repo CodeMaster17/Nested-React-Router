@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./Components/Header"
+import HeroArea from "./Components/HeroArea"
+import "./styles/header.css"
+import "./styles/common.css"
+import "./styles/heroArea.css"
+import CaseManagement from "./Components/CaseManagement";
+import Rules from "./Components/Rules";
+import RiskScoring from "./Components/Risk";
+import Sanctions from "./Components/Sanctions";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header />
+      {/* <HeroArea /> */}
+      <Routes>
+        <Route path="/" element={<HeroArea />}>
+          <Route path="/CaseManagement" element={<CaseManagement />} />
+          <Route path="/" element={<CaseManagement />} />
+          <Route path="/Rules" element={<Rules />} />
+          <Route path="/Risk" element={<RiskScoring />} />
+          <Route path="/Sanction" element={<Sanctions />} />
+        </Route>
+      </Routes>
+
+    </Router>
   );
 }
 
