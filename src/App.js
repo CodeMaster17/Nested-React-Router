@@ -4,6 +4,7 @@ import HeroArea from "./Components/HeroArea"
 import "./styles/header.css"
 import "./styles/common.css"
 import "./styles/heroArea.css"
+import "./styles/responsive.css"
 import CaseManagement from "./Components/CaseManagement";
 import Rules from "./Components/Rules";
 import RiskScoring from "./Components/Risk";

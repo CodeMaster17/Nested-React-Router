@@ -17,6 +17,17 @@
     padding: 2%;
 }
 
+.paraLeft h3 {
+    font-size: calc(.4rem + 1vw);
+
+}
+
+.paraLeft p {
+    line-height: 1.5rem;
+
+    font-size: calc(.2rem + 1vw);
+}
+
 .paraLeft h3 ion-icon {
     background-color: #1B9EFF;
     color: white;
@@ -51,8 +62,10 @@
     height: 2rem;
     border-radius: 10px;
     background-color: white;
-
+    border: none;
+    outline: none;
     color: black;
+    font-size: calc(.1rem + 1vw);
 }
 
 .navigatioNtabs a button ion-icon {

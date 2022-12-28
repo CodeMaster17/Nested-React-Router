@@ -3,6 +3,7 @@
     text-align: center;
     margin: 2% 0 2% 0;
     font-weight: 800;
+    font-size: calc(2rem + 1vw);
 }
 
 .smallHeading {
@@ -10,8 +11,8 @@
     text-align: center;
     margin: 2% 0 2% 0;
     font-weight: 800;
+    font-size: calc(.6rem + 1vw);
 
 }
-.pictures{
-    
-}
+
+.pictures {}

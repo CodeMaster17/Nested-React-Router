@@ -1,0 +1,68 @@
+@media screen and (max-width : 909px) {
+    .mainHeading {
+        font-size: calc(1.5rem + 1vw);
+    }
+
+    .smallHeading {
+
+        font-size: calc(0.4rem + 1vw);
+    }
+
+    .paraLeft h3 {
+        font-size: calc(0.3rem + 1vw);
+
+    }
+
+    .rightContainer {
+        height: 60%;
+    }
+}
+
+@media screen and (max-width : 909px) {
+
+    .mainHeading {
+        font-size: calc(1.2rem + 1vw);
+    }
+
+    .smallHeading {
+
+        font-size: calc(0.3rem + 1vw);
+    }
+
+    .heroAreaContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 140vh;
+        margin-left: 5%;
+        overflow-x: hidden;
+    }
+
+    .leftContainer {
+        width: 100%;
+    }
+
+    .paraLeft h3 {
+        font-size: calc(0.8rem + 1vw);
+
+    }
+
+    .paraLeft p {
+        font-size: calc(0.6rem + 1vw);
+
+    }
+
+    .rightContainer {
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigatioNtabs a button {
+        font-size: calc(.3rem + 1vw);
+    }
+}
