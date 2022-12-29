@@ -1,3 +1,16 @@
+@media screen and (max-width : 898px) {
+    .heroAreaContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 180vh;
+        margin-left: 5%;
+        overflow-x: hidden;
+        /* margin-top: -30%; */
+    }
+}
+
 @media screen and (max-width : 909px) {
     .mainHeading {
         font-size: calc(1.5rem + 1vw);
@@ -18,6 +31,7 @@
     }
 }
 
+
 @media screen and (max-width : 909px) {
 
     .mainHeading {
@@ -26,21 +40,23 @@
 
     .smallHeading {
 
-        font-size: calc(0.3rem + 1vw);
+        font-size: calc(0.6rem + 1vw);
     }
 
     .heroAreaContainer {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
-        height: 140vh;
+        height: 130vh;
         margin-left: 5%;
         overflow-x: hidden;
+        margin-top: -30%;
     }
 
     .leftContainer {
         width: 100%;
+        height: 40%;
     }
 
     .paraLeft h3 {
@@ -55,7 +71,7 @@
 
     .rightContainer {
         width: 90%;
-        height: 20%;
+        height: 25%;
         display: flex;
         flex-direction: column;
         justify-content: center;
