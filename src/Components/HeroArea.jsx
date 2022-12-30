@@ -49,8 +49,14 @@ const HeroArea = () => {
                     <br />
 
                 </motion.div>
-                <motion.a initial={{ x: -400 }} animate={{ x: 0 }}
-                    transition={{ duration: .9, delay: .2 }} href="/" className='learnMore'>Learn More {'>'} </motion.a>
+                <motion.div className="paraLeft" initial={{ x: -300 }} animate={{ x: 0 }}
+                    transition={{ duration: .9, delay: .2 }}>
+                    <motion.a initial={{ x: -400 }} animate={{ x: 0 }}
+                        transition={{ duration: .9, delay: .2 }} href="/" className='learnMore'>Learn More {'>'} </motion.a>
+
+                </motion.div>
+
+
             </div>
             <div className="rightContainer">
                 <motion.div initial={{ x: 400 }} animate={{ x: 0 }} transition={{
